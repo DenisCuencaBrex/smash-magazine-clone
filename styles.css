@@ -50,6 +50,9 @@ nav ul li{
     line-height: 4em;
     padding-left: 2.5em;
 }
+.banner{
+    width: 100%;
+}
 
 .box-container{
     display: grid;
@@ -76,12 +79,32 @@ nav ul li{
 
 .info-box{ 
   position: absolute;
-  top: 5%;
-  left: 40%;
+  top: 18%;
+  left: 38%;
   background: white;
   text-align: center;
   padding: .8em;
 }
-.banner{
-  position: relative;
+
+.articles{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2em;
+}
+
+.articles-box{
+    padding:1em;
+    font-size: 17px;
+    
+}
+
+.articles-box h2{
+    padding-bottom: 1em;
+    line-height: 1.2em;
+    text-decoration: underline;
+}
+
+.articles-box p{
+    font-size: 18px;
+    font-family: sans-serif;
 }
