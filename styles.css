@@ -75,10 +75,13 @@ nav ul li{
 }
 
 .info-box{ 
-    position: absolute;
-    top: 130px;
-    left: 495px;
-    background: white;
-    text-align: center;
-    padding: .8em;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  background: white;
+  text-align: center;
+  padding: .8em;
+}
+.banner{
+  position: relative;
 }
