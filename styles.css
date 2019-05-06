@@ -76,7 +76,8 @@ nav ul li{
 .box:nth-child(2), .box:nth-child(3){
     float: right;
     background: lightgray;
+    padding: 0;
 }
 
 
-
+ 
