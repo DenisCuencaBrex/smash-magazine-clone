@@ -322,27 +322,30 @@ nav ul li{
 }
 
 .guides-container{
-  padding: 3em;
+  padding: 3em 5em;
 }
 
 .guide-item{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0 22px;
 }
 
 .guide-item-container{
-  width: 350px;
+  width: 450px;
 }
 
 .guide-item-container h2{
   padding-top: 0.6em;
+  font-size: 1.8em;
+  line-height: 1.2;
 }
 
 .guide-list{
   list-style: outside;
   padding: 1.5em;
   line-height: 2;
+  font-size: 1.3em;
+  text-decoration: underline;
 }
 
 .sub-guide{
@@ -362,6 +365,13 @@ nav ul li{
 
 .newsletter h2{
   padding: 1em;
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+
+.newsletter-container p{
+  font-size: 1.4em;
+  line-height: 1.5;
 }
 
 .newsletter-img{
@@ -385,7 +395,6 @@ footer{
 }
 
 .footer-list{
-  list-style: outside;
   padding: 1.5em;
   line-height: 2;
 }
@@ -393,6 +402,10 @@ footer{
 .footer-list li{
   display: inline-block;
   padding: 0.4em;
+  font-size: 1.3em;
+}
+.footer-column ul{
+  list-style-type: disc;
 }
 
 .footer-notes{
@@ -402,8 +415,34 @@ footer{
 .footer-links{
   padding-top: 1em;
 }
+.email{
+    background: lightgray;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+    font-size: 1.5em;
+    margin-top: 2em;
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 398px;
+    top: 0px;
+}
+
+.subscribe-btn{
+    background: lightgray;
+    color: white;
+    padding: 0.9em 1em;
+    font-size: 1.5em;
+    margin-top: 2em;
+    border-radius: 0 20px 20px 0;
+}
 
 
+.wrap-email-subscribe{
+  position: relative;
+  left: 20%;
+}
 .footer-links li{
   display: inline-block;
   padding: 0.4em;
