@@ -238,3 +238,7 @@ nav ul li{
 .person-content h4{
   padding-bottom: 1em;
 }
+
+.person-content p{
+  line-height: 1.5
+}
