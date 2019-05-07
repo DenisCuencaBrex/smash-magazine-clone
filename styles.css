@@ -183,7 +183,7 @@ nav ul li{
   width: 100%;
   height: 100%;
   text-align: center;
-  background: lightgray;
+  background: darkgray;
 }
 
 .smash-container{
@@ -212,7 +212,7 @@ nav ul li{
 }
 
 .explore-btn{
-  background: darkgray;
+  background: lightgray;
   color: white;
   padding: 1em 2em;
   border-radius: 15px;
@@ -306,11 +306,105 @@ nav ul li{
 }
 .two-col-img{
   height: 300px;
-  background: darkgray;
+  background: lightgray;
   border-radius: 15px;
   width: 300px;
 }
 
 .two-col-content{
   height: 400px;
+  padding-top: 2em;
+}
+
+.table-of-contents-container{
+  background: darkgray;
+  height: 470px
+}
+
+.guides-container{
+  padding: 3em;
+}
+
+.guide-item{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 22px;
+}
+
+.guide-item-container{
+  width: 350px;
+}
+
+.guide-item-container h2{
+  padding-top: 0.6em;
+}
+
+.guide-list{
+  list-style: outside;
+  padding: 1.5em;
+  line-height: 2;
+}
+
+.sub-guide{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3em;
+}
+
+.newsletter{
+  background: darkgray;
+  width: 800px;
+  height: 700px;
+  border-radius: 15px;
+  padding: 1em 5em;
+  text-align: center;
+}
+
+.newsletter h2{
+  padding: 1em;
+}
+
+.newsletter-img{
+  background: lightgray;
+  height: 350px;
+  border-radius: 15px;
+  margin-top: 2em;
+}
+
+footer{
+  padding-top: 4em;
+}
+
+.footer-container{
+  text-align: center;
+  background: darkgray
+}
+
+.footer-container h4{
+  padding-top: 3em;
+}
+
+.footer-list{
+  list-style: outside;
+  padding: 1.5em;
+  line-height: 2;
+}
+
+.footer-list li{
+  display: inline-block;
+  padding: 0.4em;
+}
+
+.footer-notes{
+  line-height: 1.8;
+}
+
+.footer-links{
+  padding-top: 1em;
+}
+
+
+.footer-links li{
+  display: inline-block;
+  padding: 0.4em;
 }
