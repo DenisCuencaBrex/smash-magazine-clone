@@ -8,4 +8,4 @@ smash magazine clone page
 
 ## Live Demos
 
-https://raw.githack.com/DenisCuencaBrex/smash-magazine-clone/blob/master/index.html
+https://raw.githack.com/DenisCuencaBrex/smash-magazine-clone/development/index.html
